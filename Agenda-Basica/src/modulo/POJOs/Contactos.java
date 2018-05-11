@@ -5,6 +5,7 @@ import java.util.HashMap;
 public class Contactos {
 	private String nombre;
 	public HashMap <String, Grupos>ListadoGrupos=new HashMap <String, Grupos>();
+	public HashMap <Integer, Contactos>Favoritos=new HashMap <Integer, Contactos>();
 	private int numero;
 	
 

@@ -2,28 +2,33 @@ package modulo.metodos;
 
 import java.util.HashMap;
 
-import modulo.POJOs.ContactoM;
 import modulo.POJOs.Contactos;
 
-public class MetodosContactos implements ContactoM {
-	public static HashMap <Integer, Contactos>Contactos=new HashMap <Integer, Contactos>();
-	@Override
-	public void AñadirContacto(int numero, String nombre) {
+public class MetodosContactos {
+	public static HashMap <Integer, Contactos>ContactosGrupo=new HashMap <Integer, Contactos>();
+
+	public void AnadirContacto(int numero, String nombre) {
 		Contactos contacto=new Contactos(nombre ,numero);
-		Contactos.put(numero, contacto);
+		ContactosGrupo.put(numero, contacto);
 		
 	}
 
-	@Override
+
 	public void EliminarContacto(int numero) {
-		Contactos.remove(numero);
+		ContactosGrupo.remove(numero);
 
 		
 	}
 	
 	public void modificarContacto(String nombre, int numero, int numeroAntiguo) {
-		Contactos.remove(numeroAntiguo);
+		ContactosGrupo.remove(numeroAntiguo);
 		Contactos contacto=new Contactos(nombre ,numero);
-		Contactos.put(numero, contacto);
+		ContactosGrupo.put(numero, contacto);
+	}
+	public void anadirFavoritos(int numero) {
+		Contactos.Favoritos.put(numero, ContactosGrupo.get(numero));
+	}
+	public void eliminarFavoritos(int numero) {
+		Contactos.Favoritos.remove(numero);
 	}
 }

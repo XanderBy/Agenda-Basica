@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 public class Grupos {
 	private String nombre;
-	public static HashMap <String, Grupos>ListadoContactos=new HashMap <String, Grupos>();
+	public static HashMap <Integer, Contactos>Participantes=new HashMap <Integer, Contactos>();
 	
 	public Grupos(String nombre) {
 		super();

@@ -14,7 +14,7 @@ public class ConexionBBDD {
 	public String driver = "com.mysql.jdbc.Driver";
 
 	// Nombre de la base de datos
-	public String database = "Agenda";
+	public String database = "agenda";
 
 	// Host
 	public String hostname = "localhost";

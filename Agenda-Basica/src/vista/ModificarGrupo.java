@@ -28,17 +28,17 @@ public class ModificarGrupo extends javax.swing.JFrame {
     private void initComponents() {
 
         jLabel1 = new javax.swing.JLabel();
-        jTextField1 = new javax.swing.JTextField();
-        PrincipalBotonFavoritos = new javax.swing.JButton();
-        PrincipalBotonFavoritos1 = new javax.swing.JButton();
+        ModificarGrupoTextoNombre = new javax.swing.JTextField();
+        ModificarGrupoBotonGuardar = new javax.swing.JButton();
+        ModificarGrupoBotonCancelar = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jLabel1.setText("Nombre:");
 
-        PrincipalBotonFavoritos.setText("Guardar");
+        ModificarGrupoBotonGuardar.setText("Guardar");
 
-        PrincipalBotonFavoritos1.setText("Cancelar");
+        ModificarGrupoBotonCancelar.setText("Cancelar");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -46,16 +46,16 @@ public class ModificarGrupo extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap(126, Short.MAX_VALUE)
-                .addComponent(PrincipalBotonFavoritos)
+                .addComponent(ModificarGrupoBotonGuardar)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(PrincipalBotonFavoritos1)
+                .addComponent(ModificarGrupoBotonCancelar)
                 .addGap(105, 105, 105))
             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(layout.createSequentialGroup()
                     .addGap(94, 94, 94)
                     .addComponent(jLabel1)
                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jTextField1, javax.swing.GroupLayout.DEFAULT_SIZE, 156, Short.MAX_VALUE)
+                    .addComponent(ModificarGrupoTextoNombre, javax.swing.GroupLayout.DEFAULT_SIZE, 156, Short.MAX_VALUE)
                     .addGap(95, 95, 95)))
         );
         layout.setVerticalGroup(
@@ -63,14 +63,14 @@ public class ModificarGrupo extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap(233, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(PrincipalBotonFavoritos)
-                    .addComponent(PrincipalBotonFavoritos1))
+                    .addComponent(ModificarGrupoBotonGuardar)
+                    .addComponent(ModificarGrupoBotonCancelar))
                 .addGap(42, 42, 42))
             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(layout.createSequentialGroup()
                     .addGap(139, 139, 139)
                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(ModificarGrupoTextoNombre, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(jLabel1))
                     .addContainerGap(139, Short.MAX_VALUE)))
         );
@@ -114,9 +114,9 @@ public class ModificarGrupo extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    public javax.swing.JButton PrincipalBotonFavoritos;
-    public javax.swing.JButton PrincipalBotonFavoritos1;
+    public javax.swing.JButton ModificarGrupoBotonCancelar;
+    public javax.swing.JButton ModificarGrupoBotonGuardar;
+    public javax.swing.JTextField ModificarGrupoTextoNombre;
     public javax.swing.JLabel jLabel1;
-    public javax.swing.JTextField jTextField1;
     // End of variables declaration//GEN-END:variables
 }

@@ -25,9 +25,9 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="1" attributes="0">
               <EmptySpace pref="126" max="32767" attributes="0"/>
-              <Component id="PrincipalBotonFavoritos" min="-2" max="-2" attributes="0"/>
+              <Component id="ModificarGrupoBotonGuardar" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
-              <Component id="PrincipalBotonFavoritos1" min="-2" max="-2" attributes="0"/>
+              <Component id="ModificarGrupoBotonCancelar" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="105" max="-2" attributes="0"/>
           </Group>
           <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
@@ -35,7 +35,7 @@
                   <EmptySpace min="-2" pref="94" max="-2" attributes="0"/>
                   <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="32767" attributes="0"/>
-                  <Component id="jTextField1" pref="156" max="32767" attributes="0"/>
+                  <Component id="ModificarGrupoTextoNombre" pref="156" max="32767" attributes="0"/>
                   <EmptySpace min="-2" pref="95" max="-2" attributes="0"/>
               </Group>
           </Group>
@@ -46,8 +46,8 @@
           <Group type="102" alignment="1" attributes="0">
               <EmptySpace pref="233" max="32767" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="PrincipalBotonFavoritos" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="PrincipalBotonFavoritos1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ModificarGrupoBotonGuardar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ModificarGrupoBotonCancelar" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
           </Group>
@@ -55,7 +55,7 @@
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace min="-2" pref="139" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="jTextField1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ModificarGrupoTextoNombre" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace pref="139" max="32767" attributes="0"/>
@@ -73,12 +73,12 @@
         <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
       </AuxValues>
     </Component>
-    <Component class="javax.swing.JTextField" name="jTextField1">
+    <Component class="javax.swing.JTextField" name="ModificarGrupoTextoNombre">
       <AuxValues>
         <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
       </AuxValues>
     </Component>
-    <Component class="javax.swing.JButton" name="PrincipalBotonFavoritos">
+    <Component class="javax.swing.JButton" name="ModificarGrupoBotonGuardar">
       <Properties>
         <Property name="text" type="java.lang.String" value="Guardar"/>
       </Properties>
@@ -86,7 +86,7 @@
         <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
       </AuxValues>
     </Component>
-    <Component class="javax.swing.JButton" name="PrincipalBotonFavoritos1">
+    <Component class="javax.swing.JButton" name="ModificarGrupoBotonCancelar">
       <Properties>
         <Property name="text" type="java.lang.String" value="Cancelar"/>
       </Properties>

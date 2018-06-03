@@ -29,15 +29,15 @@
                   <Group type="102" alignment="0" attributes="0">
                       <Component id="jScrollPane2" min="-2" pref="240" max="-2" attributes="0"/>
                       <EmptySpace pref="49" max="32767" attributes="0"/>
-                      <Component id="jButton2" min="-2" pref="74" max="-2" attributes="0"/>
+                      <Component id="FavoritosBotonAtras" min="-2" pref="74" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
-                      <Component id="PrincipalBotonContactos" min="-2" max="-2" attributes="0"/>
+                      <Component id="FavoritosBotonContactos" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="PrincipalBotonGrupos" min="-2" max="-2" attributes="0"/>
+                      <Component id="FavoritosBotonGrupos" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="PrincipalBotonFavoritos" min="-2" max="-2" attributes="0"/>
+                      <Component id="FavoritosBotonFavoritos" min="-2" max="-2" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
@@ -51,13 +51,13 @@
               <Group type="103" groupAlignment="1" attributes="0">
                   <Group type="102" attributes="0">
                       <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                      <Component id="jButton2" min="-2" pref="59" max="-2" attributes="0"/>
+                      <Component id="FavoritosBotonAtras" min="-2" pref="59" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" attributes="0">
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="PrincipalBotonContactos" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="PrincipalBotonGrupos" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="PrincipalBotonFavoritos" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="FavoritosBotonContactos" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="FavoritosBotonGrupos" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="FavoritosBotonFavoritos" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace pref="16" max="32767" attributes="0"/>
                       <Component id="jScrollPane2" min="-2" pref="236" max="-2" attributes="0"/>
@@ -69,7 +69,7 @@
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Component class="javax.swing.JButton" name="PrincipalBotonContactos">
+    <Component class="javax.swing.JButton" name="FavoritosBotonContactos">
       <Properties>
         <Property name="text" type="java.lang.String" value="Contactos"/>
       </Properties>
@@ -77,7 +77,7 @@
         <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
       </AuxValues>
     </Component>
-    <Component class="javax.swing.JButton" name="PrincipalBotonGrupos">
+    <Component class="javax.swing.JButton" name="FavoritosBotonGrupos">
       <Properties>
         <Property name="text" type="java.lang.String" value="Grupos"/>
       </Properties>
@@ -85,7 +85,7 @@
         <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
       </AuxValues>
     </Component>
-    <Component class="javax.swing.JButton" name="PrincipalBotonFavoritos">
+    <Component class="javax.swing.JButton" name="FavoritosBotonFavoritos">
       <Properties>
         <Property name="text" type="java.lang.String" value="favoritos"/>
       </Properties>
@@ -100,7 +100,7 @@
 
       <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
       <SubComponents>
-        <Component class="javax.swing.JTable" name="jTable1">
+        <Component class="javax.swing.JTable" name="FavoritosTablaContactosFavoritos">
           <Properties>
             <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
               <Table columnCount="4" rowCount="4">
@@ -117,7 +117,7 @@
         </Component>
       </SubComponents>
     </Container>
-    <Component class="javax.swing.JButton" name="jButton2">
+    <Component class="javax.swing.JButton" name="FavoritosBotonAtras">
       <Properties>
         <Property name="text" type="java.lang.String" value="Atras"/>
       </Properties>

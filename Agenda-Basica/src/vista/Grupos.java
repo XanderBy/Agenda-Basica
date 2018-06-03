@@ -28,14 +28,14 @@ public class Grupos extends javax.swing.JFrame {
     private void initComponents() {
 
         jScrollPane2 = new javax.swing.JScrollPane();
-        jTable1 = new javax.swing.JTable();
-        PrincipalBotonContactos = new javax.swing.JButton();
-        PrincipalBotonGrupos = new javax.swing.JButton();
-        PrincipalBotonFavoritos = new javax.swing.JButton();
+        GruposTablaGrupos = new javax.swing.JTable();
+        GruposBotonContactos = new javax.swing.JButton();
+        GruposBotonGrupos = new javax.swing.JButton();
+        GruposBotonFavoritos = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jTable1.setModel(new javax.swing.table.DefaultTableModel(
+        GruposTablaGrupos.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null},
                 {null, null, null, null},
@@ -46,13 +46,13 @@ public class Grupos extends javax.swing.JFrame {
                 "Title 1", "Title 2", "Title 3", "Title 4"
             }
         ));
-        jScrollPane2.setViewportView(jTable1);
+        jScrollPane2.setViewportView(GruposTablaGrupos);
 
-        PrincipalBotonContactos.setText("Contactos");
+        GruposBotonContactos.setText("Contactos");
 
-        PrincipalBotonGrupos.setText("Grupos");
+        GruposBotonGrupos.setText("Grupos");
 
-        PrincipalBotonFavoritos.setText("favoritos");
+        GruposBotonFavoritos.setText("favoritos");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -64,11 +64,11 @@ public class Grupos extends javax.swing.JFrame {
                     .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 240, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(layout.createSequentialGroup()
                         .addGap(18, 18, 18)
-                        .addComponent(PrincipalBotonContactos)
+                        .addComponent(GruposBotonContactos)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(PrincipalBotonGrupos)
+                        .addComponent(GruposBotonGrupos)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(PrincipalBotonFavoritos)))
+                        .addComponent(GruposBotonFavoritos)))
                 .addContainerGap(81, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -76,9 +76,9 @@ public class Grupos extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(PrincipalBotonContactos)
-                    .addComponent(PrincipalBotonGrupos)
-                    .addComponent(PrincipalBotonFavoritos))
+                    .addComponent(GruposBotonContactos)
+                    .addComponent(GruposBotonGrupos)
+                    .addComponent(GruposBotonFavoritos))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 16, Short.MAX_VALUE)
                 .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 236, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(10, 10, 10))
@@ -123,10 +123,10 @@ public class Grupos extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    public javax.swing.JButton PrincipalBotonContactos;
-    public javax.swing.JButton PrincipalBotonFavoritos;
-    public javax.swing.JButton PrincipalBotonGrupos;
+    public javax.swing.JButton GruposBotonContactos;
+    public javax.swing.JButton GruposBotonFavoritos;
+    public javax.swing.JButton GruposBotonGrupos;
+    public javax.swing.JTable GruposTablaGrupos;
     private javax.swing.JScrollPane jScrollPane2;
-    public javax.swing.JTable jTable1;
     // End of variables declaration//GEN-END:variables
 }

@@ -39,7 +39,7 @@ public class Principal extends javax.swing.JFrame {
         PrincipalBotonGrupos = new javax.swing.JButton();
         PrincipalBotonFavoritos = new javax.swing.JButton();
         jScrollPane2 = new javax.swing.JScrollPane();
-        jTable1 = new javax.swing.JTable();
+        PrincipalTablaContactos = new javax.swing.JTable();
 
         jLabel1.setText("nombre");
 
@@ -94,7 +94,7 @@ public class Principal extends javax.swing.JFrame {
 
         PrincipalBotonFavoritos.setText("favoritos");
 
-        jTable1.setModel(new javax.swing.table.DefaultTableModel(
+        PrincipalTablaContactos.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null},
                 {null, null, null, null},
@@ -105,7 +105,7 @@ public class Principal extends javax.swing.JFrame {
                 "Title 1", "Title 2", "Title 3", "Title 4"
             }
         ));
-        jScrollPane2.setViewportView(jTable1);
+        jScrollPane2.setViewportView(PrincipalTablaContactos);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -197,9 +197,9 @@ public class Principal extends javax.swing.JFrame {
     public javax.swing.JButton PrincipalBotonContactos;
     public javax.swing.JButton PrincipalBotonFavoritos;
     public javax.swing.JButton PrincipalBotonGrupos;
+    public javax.swing.JTable PrincipalTablaContactos;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JScrollPane jScrollPane2;
-    public javax.swing.JTable jTable1;
     // End of variables declaration//GEN-END:variables
 }
